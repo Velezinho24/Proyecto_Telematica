@@ -1,0 +1,16 @@
+2025-04-20 11:34:47 Server started on port 8080, serving www
+2025-04-20 11:34:57 Request:
+POST /test.html HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+Content-Length: 17
+Content-Type: application/x-www-form-urlencoded
+
+mensaje de prueba
+2025-04-20 11:34:57 POST body: mensaje de prueba
+2025-04-20 11:34:57 Responded 200 OK
+2025-04-20 11:37:32 Shutting down server
+2025-04-20 11:38:53 Server started on port 8080, serving www
+2025-04-20 11:39:00 POST body: mensaje de prueba
+2025-04-20 11:39:00 Method: POST | Path: /test.html | Status: 200 OK | Content-Length: 48

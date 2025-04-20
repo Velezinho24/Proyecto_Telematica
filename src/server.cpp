@@ -144,7 +144,7 @@ void handleClient(int clientFd) {
 
     std::string method, path, version;
     if (!isValidRequestLine(requestLine, method, path, version)) {
-        badRequest(clientFd);
+        badRequest(clientFd, method, path);
         close(clientFd);
         return;
     }
