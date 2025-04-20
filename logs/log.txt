@@ -1,0 +1,71 @@
+2025-04-19 18:11:48 Server started on port 8080, serving www
+2025-04-19 18:12:21 Shutting down server
+2025-04-19 18:12:56 Server started on port 8080, serving www
+2025-04-19 18:13:21 Request:
+GET /index.html HTTP/1.1
+Host: localhost
+Connection: close
+
+
+2025-04-19 18:13:21 Responded 200 OK
+2025-04-19 19:28:08 Server started on port 8080, serving www
+2025-04-19 19:28:29 Request:
+GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+2025-04-19 19:28:29 Responded 200 OK
+2025-04-19 19:28:30 Request:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Referer: http://localhost:8080/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=6
+
+
+2025-04-19 19:28:30 Responded 404 Not Found
+2025-04-19 19:30:41 Request:
+GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: cross-site
+Priority: u=0, i
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+2025-04-19 19:30:41 Responded 200 OK
+2025-04-19 19:32:29 Request:
+GET /index.html HTTP/1.1
+Host: localhost
+Connection: close
+
+
+2025-04-19 19:32:29 Responded 200 OK
+2025-04-19 19:34:13 Shutting down server
