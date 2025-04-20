@@ -1762,3 +1762,8 @@ Hola mundo desde POST
 2025-04-20 10:35:19 POST body: Hola mundo desde POST
 2025-04-20 10:35:19 Responded 200 OK
 2025-04-20 10:37:00 Shutting down server
+2025-04-20 11:35:45 Server started on port 8080, serving www
+2025-04-20 11:35:58 Method: GET | Path: /caso1_imagen/index.html | Status: 200 OK | Content-Length: 230
+2025-04-20 11:35:58 Method: GET | Path: /caso1_imagen/imagen.jpg | Status: 200 OK | Content-Length: 35581
+2025-04-20 11:36:16 Method: GET | Path: /caso1_imagen/index.ht | Status: 404 Not Found | Content-Length: 48
+2025-04-20 11:36:29 Shutting down server
