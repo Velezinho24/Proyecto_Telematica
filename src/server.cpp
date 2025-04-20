@@ -131,6 +131,10 @@ void handleClient(int clientFd) {
     bool headOnly = (method == "HEAD");
     if (method == "GET" || method == "HEAD") {
         if (path == "/") path = "/index.html";
+        if (path == "/favicon.ico") {
+            sendResponse(clientFd, 204, "No Content", "", nullptr, 0);
+            return;
+        }
         serveFile(clientFd, path, headOnly);
     } else if (method == "POST") {
         static const char body[] = "<html><body><h1>POST recibido</h1></body></html>";
