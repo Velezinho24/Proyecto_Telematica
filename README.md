@@ -34,6 +34,8 @@ El servidor se ejecuta con el siguiente comando:
 Este archivo contiene la lógica completa del servidor web.
 
 🧩 Funcionalidades:
+
+
 Escucha conexiones entrantes en el puerto especificado.
 
 Procesa solicitudes HTTP/1.1 válidas (GET, HEAD, POST).
@@ -47,6 +49,8 @@ Soporte concurrente: atiende múltiples clientes al mismo tiempo usando std::thr
 Logger: registra en un archivo los eventos importantes (peticiones, respuestas, errores).
 
 🧠 Principales componentes:
+
+
 handleClient(): procesa cada conexión entrante.
 
 serveFile(): lee y entrega archivos desde el sistema de archivos.
@@ -75,8 +79,6 @@ Longitud del contenido servido y errores.
 
 ```text
 
-Copiar
-Editar
 2025-04-20 11:29:21 POST body: Hola mundo desde POST
 2025-04-20 11:29:21 Responded 200 OK
 
