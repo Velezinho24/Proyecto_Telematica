@@ -106,7 +106,19 @@ Longitud del contenido servido y errores.
 curl, Postman, Firefox
 
 🧪 Comandos de prueba:
+
 ```bash
-curl -X POST http://localhost:8080/test.html -d "mensaje de prueba"
-curl http://localhost:8080/caso1_imagen/index.html
+curl http://3.14.141.135:8080/caso1_imagen/index.html
 ```
+
+---
+
+Referencias:
+
+1. RFC 2616 - HTTP/1.1
+
+2. Beej's Guide to Network Programming
+
+3. Linux socket() man page
+
+4. GeeksForGeeks - TCP Server Client en C
